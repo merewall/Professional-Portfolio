@@ -148,6 +148,10 @@ blockquote h1 {
   text-align: center;
 }
 
+#contact-pic-div {
+  background-color: #00bcd4;
+}
+
 #contact-me-detail p {
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
