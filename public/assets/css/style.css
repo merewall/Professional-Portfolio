@@ -79,21 +79,21 @@ blockquote h1 {
 
 /* Setting height for work carousel */
 #work-carousel {
-  height: 31.25rem;
+  height: 500px;
 }
 
 .card {
-  width: 18.75rem;
+  width: 300px;
 }
 
 .card-title {
   color: white;
-  padding-bottom: 0.5rem;
+  padding-bottom: 8px;
 }
 
 #carousel-item {
-  width: 18.75rem;
-  height: 31.25rem;
+  width: 300px;
+  height: 500px;
 }
 
 .card.small .card-image,
@@ -103,25 +103,25 @@ blockquote h1 {
 }
 
 .project-subtitle {
-  font-size: 1.2rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  font-size: 19.2px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .project-description {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 32px;
+  padding-bottom: 32px;
   min-height: 85%;
-  font-size: 1.2rem;
+  font-size: 19.2px;
 }
 
 .card-link {
-  padding-top: 1rem;
+  padding-top: 18px;
   color: darkslategray;
 }
 
 .app-link {
-  padding-right: 0.5rem;
+  padding-right: 8px;
 }
 
 /* -------------------- ABOUT ME PAGE -------------------- */
