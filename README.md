@@ -17,7 +17,7 @@ My professional web development portfolio including samples of selected work, ab
 
 _Homepage:_
 
-![desktop view of meredith wall's portfolio homepage](./public/assets/images/homepage.png)
+![desktop view of meredith wall's portfolio homepage](./public/assets/images/homepage.PNG)
 
 _Homepage w/ sidenav:_
 
@@ -33,6 +33,10 @@ _About Me:_
 
 _Work:_
 ![meredith wall's portfolio work page](./public/assets/images/work.PNG)
+
+_Mobile Work:_
+
+![mobile view of meredith wall's portfolio work page](./public/assets/images/mobile-work.PNG)
 
 _Contact Me:_
 ![meredith wall's portfolio contact me page](./public/assets/images/contact.PNG)
