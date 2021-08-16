@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to reset stylesheet -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Link to Materialize CSS framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Link to Material Icons via Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Link to Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/c62780266b.js" crossorigin="anonymous"></script>
+    <!-- Link to stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Meredith Wall</title>
+</head>
+<body>
+    <div class="container">
+         <!-- nav container -->
+         <nav id="nav">
+            <div class="nav-wrapper">
+
+                <!-- slide-out nav icon -->
+                <ul class="right">
+                    <li><a href="#" data-target="slide-out" class="sidenav-trigger" id="nav-chevron"><i class="material-icons">chevron_left</i></a></li>
+                </ul>
+
+                <!-- slide-out navigation menu -->
+                <ul id="slide-out" class="sidenav">
+                    <li><div id="bio-box" class="user-view">
+                    <div class="background">
+                        <img id="nav-background" src="./assets/images/IMG-1633.jpg">
+                    </div>
+                    <a href="#user"><img id="headshot" class="circle" src="./assets/images/headshot.png"></a>
+                    <a href="#name"><span id="nav-name" class="black-text white name">Meredith Wall</span></a>
+                    <a href="mailto:mlwall@alumni.princeton.edu"><span id="nav-email" class="black-text white email">mlwall@alumni.princeton.edu</span></a>
+                    </div></li>
+                    <li><a href="#!"><i class="material-icons">home</i>Go Back Home</a></li>
+                    <li><a href="#!"><i class="material-icons">folder</i>Check Out My Work</a></li>
+                    <li><a href="#!"><i class="material-icons">person</i>Get To Know Me</a></li>
+                    <li><a href="#!"><i class="material-icons">email</i>Reach Out To Me</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Socialize</a></li>
+                    <li><a class="waves-effect" href="https://github.com/merewall" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+                    <li><a class="waves-effect" href="https://www.linkedin.com/in/meredithwall/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                    <li><a class="waves-effect" href="https://www.instagram.com/merewall/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- Carousel of my work examples -->
+        <div class="carousel center" id="work-carousel">
+            <!-- 1st portfolio item in carousel -->
+            <div class="carousel-item" id="carousel-item">
+                <div class="card large hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/technicality-logo.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Tech*nicality Blog<i class="material-icons right">keyboard_arrow_up</i></span>
+                        <p class="project-subtitle">a tech blog</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Tech*nicality Blog<i class="material-icons right">keyboard_arrow_down</i></span>
+                        <div class="divider"></div>
+                        <p class="project-subtitle">A tech blog application where developers can create an account; view blog posts; create, update, and delete posts; comment on other developers' posts; and read others' comments.
+                            <br>
+                            <br>
+                            The application follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.</p>
+                        <div class="divider"></div>
+                        <span>
+                            <p>
+                                <a href="https://tech-blog-mw.herokuapp.com/" target="_blank"><i class="material-icons right card-link app-link">explore</i></a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/merewall/Tech-Blog" target="_blank"><i class="fab fa-github right card-link" style="font-size: 22px;"></i></a>
+                            </p>
+                        </span>  
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd portfolio item in carousel -->
+            <div class="carousel-item" id="carousel-item">
+                <div class="card large hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/toolin-around.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Toolin' Around<i class="material-icons right">keyboard_arrow_up</i></span>
+                        <p class="project-subtitle">a tool-sharing app</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Toolin' Around<i class="material-icons right">keyboard_arrow_down</i></span>
+                        <div class="divider"></div>
+                        <p class="project-subtitle">A community tool-sharing application where users can create an account to view and request to borrow tools from their neighbors.
+                            <br>
+                            <br>
+                            The application follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, the express-session npm package for authentication, bcrypt for user authenication, and nodemailer for email handling.</p>
+                        <div class="divider"></div>
+                        <span>
+                            <p>
+                                <a href="https://toolin-around.herokuapp.com/" target="_blank"><i class="material-icons right card-link app-link">explore</i></a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/merewall/Toolin-Around" target="_blank"><i class="fab fa-github right card-link" style="font-size: 22px;"></i></a>
+                            </p>
+                        </span>  
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd portfolio item in carousel -->
+            <div class="carousel-item" id="carousel-item">
+                <div class="card large hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/note-taker.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Note Taker<i class="material-icons right">keyboard_arrow_up</i></span>
+                        <p class="project-subtitle">a note-saving app</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Note Taker<i class="material-icons right">keyboard_arrow_down</i></span>
+                        <div class="divider"></div>
+                        <p class="project-subtitle">An application to write, save, and delete notes.
+                            <br>
+                            <br>
+                            The application uses an Express.js back end and saves and retrieves note data from a JSON file. <br><br><br></p>
+                        <div class="divider"></div>
+                        <span>
+                            <p>
+                                <a href="https://note-taker-mwall.herokuapp.com/" target="_blank"><i class="material-icons right card-link app-link">explore</i></a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/merewall/Note-Taker" target="_blank"><i class="fab fa-github right card-link" style="font-size: 22px;"></i></a>
+                            </p>
+                        </span>  
+                    </div>
+                </div>
+            </div>
+            <!-- 4th portfolio item in carousel -->
+            <div class="carousel-item" id="carousel-item">
+                <div class="card large hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/team-profile-generator.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Meet The Team<i class="material-icons right">keyboard_arrow_up</i></span>
+                        <p class="project-subtitle">a team profile generator</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Meet The Team<i class="material-icons right">keyboard_arrow_down</i></span>
+                        <div class="divider"></div>
+                        <p class="project-subtitle">This project is a command-line application for creating an HTML page of a team and its members, based on a user's inputs.
+                            <br>
+                            <br>
+                            The application uses the node inquirer package for prompting questions in command-line. It also uses jest to run the tests for the application. <br><br></p>
+                        <div class="divider"></div>
+                        <span>
+                            <p>
+                                <a href="https://note-taker-mwall.herokuapp.com/" target="_blank"><i class="material-icons right card-link app-link">explore</i></a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/merewall/Team-Profile-Generator" target="_blank"><i class="fab fa-github right card-link" style="font-size: 22px;"></i></a>
+                            </p>
+                        </span>  
+                    </div>
+                </div>
+            </div>
+            <!-- 5th portfolio item in carousel -->
+            <div class="carousel-item" id="carousel-item">
+                <div class="card large hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/weather-dashboard.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">keyboard_arrow_up</i></span>
+                        <p class="project-subtitle">a weather-search app</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">keyboard_arrow_down</i></span>
+                        <div class="divider"></div>
+                        <p class="project-subtitle">A weather dashboard application that retreieves weather data for different cities. A user can search for weather by city name and view the current conditions, as well as a 5-day forecast. User searches are saved as clickable searches for a streamlined experience.
+                            <br>
+                            <br>
+                            The application uses the OpenWeatherMap Current Weather API and OpenWeatherMap One Call API.<br><br></p>
+                        <div class="divider"></div>
+                        <span>
+                            <p>
+                                <a href="https://merewall.github.io/Wk6-WeatherDashboard/" target="_blank"><i class="material-icons right card-link app-link">explore</i></a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/merewall/Weather-Dashboard" target="_blank"><i class="fab fa-github right card-link" style="font-size: 22px;"></i></a>
+                            </p>
+                        </span>  
+                    </div>
+                </div>
+            </div> <!-- end of 5th carousel item div -->
+        </div>  <!-- end of carousel div -->
+    </div> <!-- end of grid container div -->
+
+    <!-- Link to JQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Link to Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Link to JavaScript -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
