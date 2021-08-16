@@ -1,0 +1,24 @@
+{
+  "name": "Professional-Portfolio",
+  "version": "1.0.0",
+  "description": "An application for my professional web development portfolio including samples of selected work, about me , and contact information",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merewall/Professional-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merewall/Professional-Portfolio/issues"
+  },
+  "homepage": "https://github.com/merewall/Professional-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
