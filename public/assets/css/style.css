@@ -117,6 +117,25 @@ blockquote h1 {
   padding-right: 0.5rem;
 }
 
+/* -------------------- ABOUT ME PAGE -------------------- */
+
+.card.horizontal .card-image {
+  max-width: 35%;
+}
+
+#about-pic-div {
+  background-color: #00bcd4;
+}
+
+.card.horizontal {
+  width: 200px;
+}
+
+#about-me-detail {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
 /* -------------------- RESPONSIVENESS ------------------- */
 /* https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */
 
@@ -126,6 +145,9 @@ blockquote h1 {
 
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-width: 480px) {
+  .card.horizontal {
+    width: 400px;
+  }
 }
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -160,6 +182,10 @@ blockquote h1 {
     top: 10px;
     right: -16px;
   }
+
+  .card.horizontal {
+    width: 500px;
+  }
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -188,6 +214,10 @@ blockquote h1 {
     display: block;
     right: -24px;
   }
+
+  .card.horizontal {
+    width: 700px;
+  }
 }
 
 /* big landscape tablets, laptops, and desktops */
@@ -215,6 +245,24 @@ blockquote h1 {
 
   #title-block {
     margin-top: 100px;
+  }
+
+  #about-me-blockquote {
+    margin-top: 1rem;
+  }
+
+  .about-me-brackets {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 2.5rem;
+  }
+
+  #about-me-title {
+    font-size: 2.5rem;
+  }
+
+  .card.horizontal {
+    width: 800px;
   }
 }
 
