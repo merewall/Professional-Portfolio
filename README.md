@@ -8,12 +8,8 @@ My professional web development portfolio including samples of selected work, ab
 
 ## Table of Contents
 
-- [User Story](#UserStory)
-- [Installation](#Installation)
 - [Usage](#Usage)
 - [Technologies](#Technologies)
-- [Next Steps](#Technologies)
-- [Contributors](#Contributors)
 - [Contact](#Contact)
 - [Links](#Links)
 
