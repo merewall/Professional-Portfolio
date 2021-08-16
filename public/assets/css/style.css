@@ -141,6 +141,7 @@ blockquote h1 {
 #about-pic {
   width: 4rem;
   height: 4rem;
+  border-radius: 50%;
 }
 
 .card.horizontal {
@@ -277,8 +278,8 @@ blockquote h1 {
   }
 
   #about-pic {
-    width: 8rem;
-    height: 8rem;
+    width: 12rem;
+    height: 12rem;
   }
 }
 
@@ -341,8 +342,6 @@ blockquote h1 {
   #about-pic {
     top: 1.313rem;
     bottom: -1.313rem;
-    width: 8rem;
-    height: 8rem;
   }
 }
 
