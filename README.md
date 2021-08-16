@@ -25,7 +25,7 @@ _Homepage w/ sidenav:_
 
 _Mobile Homepage:_
 
-![mobile view of meredith wall's portfolio homepage](./public/assets/images/mobile-homepage.PNG)
+![mobile view of meredith wall's portfolio homepage](./public/assets/images/mobile-homepage.jpg)
 
 _About Me:_
 
@@ -36,7 +36,7 @@ _Work:_
 
 _Mobile Work:_
 
-![mobile view of meredith wall's portfolio work page](./public/assets/images/mobile-work.PNG)
+![mobile view of meredith wall's portfolio work page](./public/assets/images/mobile-work.jpg)
 
 _Contact Me:_
 ![meredith wall's portfolio contact me page](./public/assets/images/contact.PNG)
