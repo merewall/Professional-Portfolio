@@ -28,7 +28,7 @@ h4 {
 }
 
 #nav-background {
-  width: 20rem;
+  width: 22rem;
 }
 
 #headshot {
@@ -44,6 +44,11 @@ h4 {
 
 #nav-email {
   padding-bottom: 0rem;
+  /* font-size: 0.875rem; */
+}
+
+.sidenav li > a {
+  font-size: 1rem;
 }
 
 #bio-box {
