@@ -39,7 +39,7 @@ h4 {
 #nav-name,
 #nav-email {
   text-align: center;
-  width: 15rem;
+  width: 17rem;
 }
 
 #nav-email {
@@ -283,6 +283,11 @@ blockquote h1 {
 
   #nav-chevron i {
     font-size: 1.875rem;
+  }
+
+  #nav-name,
+  #nav-email {
+    width: 16rem;
   }
 
   #title-block {
